@@ -12,6 +12,9 @@ export default (...connectArgs) => (Component) => connect(...connectArgs)(
     componentWillUnmount () {
       this.trigger('onComponentWillUnmount')
     }
+    componentDidUpdate () {
+      this.trigger('onComponentDidUpdate')
+    }
     trigger (name) {
       this.props.hasOwnProperty(name) && this.props[name](this.props)
     }
