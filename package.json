@@ -1,6 +1,6 @@
 {
   "name": "react-redux-connect-lifecycle",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A higher-order component to connect a React component to a redux store with component 'mount' lifecycle events",
   "main": "dist/index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/ttoohey/react-redux-connect-lifecycle#readme",
   "dependencies": {
     "react": "^16.0.0",
-    "react-redux": "^5.0.6"
+    "react-redux": "^7.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
