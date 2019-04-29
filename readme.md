@@ -21,6 +21,7 @@ const mapDispatchToProps = ({
   /* ... */
   onComponentWillMount  : (props) => ({ type: 'WILL_MOUNT'  , props }),
   onComponentDidMount   : (props) => ({ type: 'DID_MOUNT'   , props }),
+  onComponentDidUpdate  : (props) => ({ type: 'DID_UPDATE'  , props }),
   onComponentWillUnmount: (props) => ({ type: 'WILL_UNMOUNT', props })
 })
 
