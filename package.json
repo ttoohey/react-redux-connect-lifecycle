@@ -23,9 +23,9 @@
     "url": "https://github.com/ttoohey/react-redux-connect-lifecycle/issues"
   },
   "homepage": "https://github.com/ttoohey/react-redux-connect-lifecycle#readme",
-  "dependencies": {
-    "react": "^16.6.3",
-    "react-redux": "^5.1.1"
+  "peerDependencies": {
+    "react": "*",
+    "react-redux": "*"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
